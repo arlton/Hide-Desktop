@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DT000001000000000000BBBB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DT000001000000000001AAAA /* main.swift */; };
-		DT000001000000000000CCCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DT000001000000000001BBBB /* AppDelegate.swift */; };
+		AB0000000000000000000001 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0000000000000000000002 /* main.swift */; };
+		AB0000000000000000000002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0000000000000000000003 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DT000001000000000000FFFF /* DesktopToggle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesktopToggle.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DT000001000000000001AAAA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		DT000001000000000001BBBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DT000001000000000001CCCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = SOURCE_ROOT; };
-		DT000001000000000001DDDD /* DesktopToggle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DesktopToggle.entitlements; sourceTree = "<group>"; };
+		AC0000000000000000000001 /* DesktopToggle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesktopToggle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0000000000000000000002 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AC0000000000000000000003 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC0000000000000000000004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = SOURCE_ROOT; };
+		AC0000000000000000000005 /* DesktopToggle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DesktopToggle.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DT000001000000000002AAAA /* Frameworks */ = {
+		AF0000000000000000000002 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -30,30 +30,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DT000001000000000000CCCD /* MainGroup */ = {
+		AD0000000000000000000001 /* MainGroup */ = {
 			isa = PBXGroup;
 			children = (
-				DT000001000000000000DDDD /* Sources */,
-				DT000001000000000000EEEE /* Products */,
+				AD0000000000000000000002 /* DesktopToggle */,
+				AD0000000000000000000003 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DT000001000000000000DDDD /* Sources */ = {
+		AD0000000000000000000002 /* DesktopToggle */ = {
 			isa = PBXGroup;
 			children = (
-				DT000001000000000001AAAA /* main.swift */,
-				DT000001000000000001BBBB /* AppDelegate.swift */,
-				DT000001000000000001DDDD /* DesktopToggle.entitlements */,
-				DT000001000000000001CCCC /* Info.plist */,
+				AC0000000000000000000002 /* main.swift */,
+				AC0000000000000000000003 /* AppDelegate.swift */,
+				AC0000000000000000000005 /* DesktopToggle.entitlements */,
+				AC0000000000000000000004 /* Info.plist */,
 			);
 			name = DesktopToggle;
 			path = Sources/DesktopToggle;
 			sourceTree = SOURCE_ROOT;
 		};
-		DT000001000000000000EEEE /* Products */ = {
+		AD0000000000000000000003 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DT000001000000000000FFFF /* DesktopToggle.app */,
+				AC0000000000000000000001 /* DesktopToggle.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,13 +61,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DT000001000000000000BBBB /* DesktopToggle */ = {
+		AE0000000000000000000001 /* DesktopToggle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DT000001000000000003CCCC /* Build configuration list for PBXNativeTarget "DesktopToggle" */;
+			buildConfigurationList = BB0000000000000000000002 /* Build configuration list for PBXNativeTarget "DesktopToggle" */;
 			buildPhases = (
-				DT000001000000000001EEEE /* Sources */,
-				DT000001000000000002AAAA /* Frameworks */,
-				DT000001000000000001FFFF /* Resources */,
+				AF0000000000000000000001 /* Sources */,
+				AF0000000000000000000002 /* Frameworks */,
+				AF0000000000000000000003 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -75,25 +75,25 @@
 			);
 			name = DesktopToggle;
 			productName = DesktopToggle;
-			productReference = DT000001000000000000FFFF /* DesktopToggle.app */;
+			productReference = AC0000000000000000000001 /* DesktopToggle.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DT000001000000000000AAAA /* Project object */ = {
+		BC0000000000000000000001 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					DT000001000000000000BBBB = {
+					AE0000000000000000000001 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = DT000001000000000003BBBB /* Build configuration list for PBXProject "DesktopToggle" */;
+			buildConfigurationList = BB0000000000000000000001 /* Build configuration list for PBXProject "DesktopToggle" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -101,18 +101,18 @@
 				en,
 				Base,
 			);
-			mainGroup = DT000001000000000000CCCD;
-			productRefGroup = DT000001000000000000EEEE /* Products */;
+			mainGroup = AD0000000000000000000001;
+			productRefGroup = AD0000000000000000000003 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DT000001000000000000BBBB /* DesktopToggle */,
+				AE0000000000000000000001 /* DesktopToggle */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DT000001000000000001FFFF /* Resources */ = {
+		AF0000000000000000000003 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,19 +122,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DT000001000000000001EEEE /* Sources */ = {
+		AF0000000000000000000001 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DT000001000000000000BBBB /* main.swift in Sources */,
-				DT000001000000000000CCCC /* AppDelegate.swift in Sources */,
+				AB0000000000000000000001 /* main.swift in Sources */,
+				AB0000000000000000000002 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		DT000001000000000002DDDD /* Debug */ = {
+		BA0000000000000000000001 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -189,7 +189,7 @@
 			};
 			name = Debug;
 		};
-		DT000001000000000002EEEE /* Release */ = {
+		BA0000000000000000000002 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -235,7 +235,7 @@
 			};
 			name = Release;
 		};
-		DT000001000000000002FFFF /* Debug */ = {
+		BA0000000000000000000003 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = Sources/DesktopToggle/DesktopToggle.entitlements;
@@ -259,7 +259,7 @@
 			};
 			name = Debug;
 		};
-		DT000001000000000003AAAA /* Release */ = {
+		BA0000000000000000000004 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = Sources/DesktopToggle/DesktopToggle.entitlements;
@@ -286,20 +286,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DT000001000000000003BBBB /* Build configuration list for PBXProject "DesktopToggle" */ = {
+		BB0000000000000000000001 /* Build configuration list for PBXProject "DesktopToggle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DT000001000000000002DDDD /* Debug */,
-				DT000001000000000002EEEE /* Release */,
+				BA0000000000000000000001 /* Debug */,
+				BA0000000000000000000002 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DT000001000000000003CCCC /* Build configuration list for PBXNativeTarget "DesktopToggle" */ = {
+		BB0000000000000000000002 /* Build configuration list for PBXNativeTarget "DesktopToggle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DT000001000000000002FFFF /* Debug */,
-				DT000001000000000003AAAA /* Release */,
+				BA0000000000000000000003 /* Debug */,
+				BA0000000000000000000004 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -307,5 +307,5 @@
 /* End XCConfigurationList section */
 
 	};
-	rootObject = DT000001000000000000AAAA /* Project object */;
+	rootObject = BC0000000000000000000001 /* Project object */;
 }
