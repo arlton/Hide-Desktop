@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
     <key>CFBundleIdentifier</key>
-    <string>com.user.DesktopToggle</string>
+    <string>com.yourname.DesktopToggle</string>
     <key>CFBundleName</key>
     <string>DesktopToggle</string>
     <key>CFBundleExecutable</key>
     <string>DesktopToggle</string>
     <key>CFBundleVersion</key>
-    <string>1.0</string>
+    <string>1</string>
     <key>CFBundleShortVersionString</key>
     <string>1.0</string>
     <key>CFBundlePackageType</key>
@@ -17,9 +17,10 @@
     <!-- Run as a menu-bar agent — no Dock icon -->
     <key>LSUIElement</key>
     <true/>
-    <key>NSHumanReadableDescription</key>
-    <string>DesktopToggle monitors mouse clicks to detect when you click the desktop.</string>
     <key>LSMinimumSystemVersion</key>
     <string>12.0</string>
+    <!-- Shown in System Settings → Privacy & Security → Input Monitoring -->
+    <key>NSInputMonitoringUsageDescription</key>
+    <string>DesktopToggle monitors mouse clicks to detect when you click the desktop, so it can hide or show desktop icons.</string>
 </dict>
 </plist>
