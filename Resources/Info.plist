@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>com.few.desktoptoggle</string>
+	<string>io.few.desktoptoggle</string>
 	<key>CFBundleName</key>
 	<string>DesktopToggle</string>
 	<key>CFBundleExecutable</key>
