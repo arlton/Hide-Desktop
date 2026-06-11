@@ -2,25 +2,23 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>CFBundleIdentifier</key>
-    <string>com.yourname.DesktopToggle</string>
-    <key>CFBundleName</key>
-    <string>DesktopToggle</string>
-    <key>CFBundleExecutable</key>
-    <string>DesktopToggle</string>
-    <key>CFBundleVersion</key>
-    <string>1</string>
-    <key>CFBundleShortVersionString</key>
-    <string>1.0</string>
-    <key>CFBundlePackageType</key>
-    <string>APPL</string>
-    <!-- Run as a menu-bar agent — no Dock icon -->
-    <key>LSUIElement</key>
-    <true/>
-    <key>LSMinimumSystemVersion</key>
-    <string>12.0</string>
-    <!-- Shown in System Settings → Privacy & Security → Input Monitoring -->
-    <key>NSInputMonitoringUsageDescription</key>
-    <string>DesktopToggle monitors mouse clicks to detect when you click the desktop, so it can hide or show desktop icons.</string>
+	<key>CFBundleIdentifier</key>
+	<string>io.few.desktoptoggle</string>
+	<key>CFBundleName</key>
+	<string>DesktopToggle</string>
+	<key>CFBundleExecutable</key>
+	<string>DesktopToggle</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>LSMinimumSystemVersion</key>
+	<string>12.0</string>
+	<key>NSInputMonitoringUsageDescription</key>
+	<string>DesktopToggle monitors mouse clicks to detect when you click the desktop, so it can hide or show desktop icons.</string>
 </dict>
 </plist>

@@ -1,0 +1,8 @@
+//
+//  .gitignore
+//  DesktopToggle
+//
+//  Created by Trevor Pennington on 6/11/26.
+//
+.build/
+.swiftpm/
