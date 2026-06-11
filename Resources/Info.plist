@@ -20,5 +20,7 @@
 	<string>12.0</string>
 	<key>NSInputMonitoringUsageDescription</key>
 	<string>DesktopToggle monitors mouse clicks to detect when you click the desktop, so it can hide or show desktop icons.</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
 </dict>
 </plist>
