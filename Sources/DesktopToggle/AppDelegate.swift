@@ -36,7 +36,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let menu = NSMenu()
         menu.addItem(withTitle: "Toggle Desktop Icons", action: #selector(toggleFromMenu), keyEquivalent: "t")
         menu.addItem(.separator())
-        menu.addItem(withTitle: "Quit DesktopToggle", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q")
+        menu.addItem(withTitle: "Quit DesktopToggle", action: #selector(quitApp), keyEquivalent: "q")
         statusItem.menu = menu
 
         updateIcon()
@@ -111,6 +111,30 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
             self.isToggling = false
         }
+    }
+    
+    // MARK: - Quit handler
+    @objc private func quitApp() {
+        if iconsHidden {
+            let task = Process()
+            task.launchPath = "/bin/bash"
+            task.arguments = [
+                "-c",
+                "defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
+            ]
+
+            do {
+                try task.run()
+                task.waitUntilExit()
+
+                iconsHidden = false
+                updateIcon()
+            } catch {
+                // Ignore and continue quitting
+            }
+        }
+
+        NSApp.terminate(nil)
     }
 
     func applicationWillTerminate(_ notification: Notification) {
