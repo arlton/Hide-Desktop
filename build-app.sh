@@ -14,6 +14,8 @@ mkdir -p "$APP/Contents/MacOS"
 
 cp ".build/release/DesktopToggle" "$APP/Contents/MacOS/DesktopToggle"
 cp "Resources/Info.plist"         "$APP/Contents/Info.plist"
+mkdir -p "$APP/Contents/Resources"
+cp "Resources/AppIcon.icns" "$APP/Contents/Resources/AppIcon.icns"
 
 echo ""
 echo "Done — $APP is ready."
